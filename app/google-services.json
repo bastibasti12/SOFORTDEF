@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "564118164441",
+    "firebase_url": "https://proyecto-sofort-39110.firebaseio.com",
+    "project_id": "proyecto-sofort-39110",
+    "storage_bucket": "proyecto-sofort-39110.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564118164441:android:3af70efc0e2dfa1643ffc8",
+        "android_client_info": {
+          "package_name": "com.example.sofortdef"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564118164441-b9mgtp4ddpanpod35s67f3qklllkvnt7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sofortdef",
+            "certificate_hash": "33ecfe2c10afe3d68611f9483e2af7c4a55d7e0c"
+          }
+        },
+        {
+          "client_id": "564118164441-hlj3ha4q0j2824modka4cd71p8u53802.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9K2L-ljYd_q9EMts5GsCyxxPPx5bp-cE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564118164441-hlj3ha4q0j2824modka4cd71p8u53802.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

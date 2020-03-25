@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientlogin"
+    tools:context=".fragments_nav.cuentafragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:fontFamily="sans-serif-black"
+            android:padding="18dp"
+            android:text="CONFIGURACIONES DE LA CUENTA"
+            android:textAlignment="center"
+            android:textColor="#bd65f0"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/layer_list" />
+
+        <TextView
+            android:id="@+id/textBienv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:fontFamily="sans-serif-light"
+            android:padding="10dp"
+            android:text="¡Bienvenido {Usuario}!"
+            android:textAlignment="center"
+            android:textColor="#bd65f0"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/botones"
+            android:fontFamily="sans-serif-medium"
+            android:text="Establecer Preferencias"
+            android:textColor="#bd65f0" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/botones"
+            android:text="CAMBIAR CONTRASEÑA"
+            android:textColor="#bd65f0" />
+
+        <Button
+            android:id="@+id/btnCerrarSesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/botones"
+            android:text="Cerrar Sesión"
+            android:textColor="#bd65f0" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
